@@ -6,6 +6,6 @@ NAME VARCHAR2(255) DEFAULT NULL,
 AGE NUMBER(10, 0) DEFAULT NULL,
 PRIMARY KEY (ID));
 
-DROP SEQUENCE hibernate_sequence;
+ DROP SEQUENCE hibernate_sequence;
 
-CREATE SEQUENCE hibernate_sequence;
+ CREATE SEQUENCE hibernate_sequence;

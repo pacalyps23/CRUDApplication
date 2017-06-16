@@ -1,4 +1,4 @@
-package io.zipcoder.crudapp;
+package io.zipcoder;
 
 import org.h2.server.web.WebServlet;
 import org.springframework.boot.SpringApplication;

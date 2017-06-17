@@ -39,9 +39,10 @@ public class PersonService
         personRepo.delete(id);
     }
 
-    public void add(Person newPerson)
+    public Person add(Person newPerson)
     {
         personRepo.save(newPerson);
+        return newPerson;
     }
 
 }

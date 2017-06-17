@@ -32,7 +32,7 @@ public class PersonController
     }
 
     @RequestMapping(value="/{id}", method = RequestMethod.GET)
-    public ResponseEntity <Person> getStudentById(@PathVariable("id") int id)
+    public ResponseEntity <Person> getPersonById(@PathVariable("id") int id)
     {
         if(personService.getPersonById(id) == null)
         {
